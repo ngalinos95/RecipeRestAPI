@@ -3,6 +3,19 @@
 * The project is a RESTful API with implementation of SpringBoot and Spring Security framework updating deliting and creating new entries on a H2 database
 base based on USERS autorization and authentication.The USERS information will be stored on the H2 database with the user being able to create new users whose passwords are stored encrypted
 
+The project uses fundamental Spring Boot features like:
+> 
+> Authentication
+> 
+> Authorization
+> 
+> Databases
+> 
+> Transactional Operations
+> 
+> Spring Beans, Components and Configurations
+> 
+> Project Lombok
 ## Installation
 
 Run -->
@@ -80,3 +93,5 @@ Run -->
 
 6. `GET /api/recipe/search?category={category_name}` or
    `GET /api/recipe/search?name={name}` searches for all recipes for given request parameters.
+
+7. The same logic is used for the USER endpoints.
